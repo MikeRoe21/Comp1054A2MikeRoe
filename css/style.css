@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* Validated at: https://jigsaw.w3.org/css-validator/validator */
+
+html{
+	font-family: Arial, sans-serif;
+	padding: 10px;
+	background-image: url("Reeses-Peanut-Butter.png");
+	background-repeat: repeat;
+	background-color: darkorange;
+	min-width: 720px;
+	max-width: 960px;
+	margin:auto;
+}
+
+#container{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	outline: 3px solid black;
+	padding: 30px;
+	background-image: url("ReeseBackground.png");
+	background-size: contain;
+}
+
+header h1{
+	margin-top: -10px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+main{
+	outline: 3px solid black;
+	position: relative;
+	background: gold;
+	display: flex;
+}
+
+main nav{
+	outline: 3px solid black;
+	width: 25%;
+	background: darkorange;
+	padding: 10px;
+	order:1;
+}
+
+main article{
+	outline: 3px solid black;
+	width: 25%;
+	background: orange;
+	padding: 10px;
+	order:4;
+}
+
+main section{
+	outline: 3px solid black;
+	width: 25%;
+	background: brown;
+	padding: 10px;
+	order:3;
+}
+
+main aside{
+	outline: 3px solid black;
+	width: 25%;
+	padding: 10px;
+	order:2;
+	background-image: url("14-WrinkledOpacity.png");
+}
+
+header nav ul {
+	text-align: center;
+}
+
+header nav ul li{
+	display: inline-flex;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: darkorange;
+	border: 3px solid darkred;
+}
+
+a:hover{
+	color:red;
+}
+
+footer{
+	outline: 3px solid black;
+	text-align: right;
+	background-image: url("reeses_mini_pb_cups__20848.1410208740.1280.1280.jpeg");
+	background-size:contain;
+}
+
+#copyright{
+	width: 200px;
+	text-align: right;
+	background-color: lightgrey;
+	border: 3px solid black;
+	position:static;
+	margin-top: 25px;
+	margin-left: auto;
+}
+
+
+main nav ul{
+	background-color: lightgrey;
+	border: 3px solid red;
+}
+
+
+h2{
+	margin-top: 0;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p{
+	margin-top: 0;
+	text-align: center;
+	line-height: 140%;
+	letter-spacing: 0.3px;
+}
