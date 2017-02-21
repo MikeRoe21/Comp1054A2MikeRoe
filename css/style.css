@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* Validated at: https://jigsaw.w3.org/css-validator/validator */
 
+
 html{
 	font-family: Arial, sans-serif;
-	padding: 10px;
 	background-image: url("Reeses-Peanut-Butter.png");
 	background-repeat: repeat;
 	background-color: darkorange;
@@ -113,7 +113,6 @@ main nav ul{
 
 h2{
 	margin-top: 0;
-	text-decoration: underline;
 	text-align: center;
 }
 
