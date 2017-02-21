@@ -42,9 +42,9 @@ main{
 main nav{
 	outline: 3px solid black;
 	width: 25%;
-	background: darkorange;
+	background: brown;
 	padding: 10px;
-	order:1;
+	order:3;
 }
 
 main article{
@@ -58,16 +58,16 @@ main article{
 main section{
 	outline: 3px solid black;
 	width: 25%;
-	background: brown;
+	background: darkorange;
 	padding: 10px;
-	order:3;
+	order:2;
 }
 
 main aside{
 	outline: 3px solid black;
 	width: 25%;
 	padding: 10px;
-	order:2;
+	order:1;
 	background-image: url("14-WrinkledOpacity.png");
 }
 
@@ -84,6 +84,7 @@ header nav ul li{
 }
 
 a:hover{
+	font-style: italic;
 	color:red;
 }
 
